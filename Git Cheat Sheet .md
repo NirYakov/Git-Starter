@@ -1,4 +1,4 @@
-Here is the text you provided formatted as a consistent Markdown cheat sheet:
+Here is the text formatted with the same style of number bullet points and titles:
 
 # Git & GitHub Command Cheat Sheet
 
@@ -32,93 +32,99 @@ This guide covers essential Git commands to help you get started with version co
 
 ## Essential Git Commands
 
-# Essential Git Commands
+### 1. **git init**
 
-1. **git init**
-   **Description:** Initializes a new Git repository in your project folder.
-   **Usage:**
+**Description:** Initializes a new Git repository in your project folder.
+**Usage:**
 
-   ```bash
-   git init
-   ```
+```bash
+git init
+```
 
-   **Example:** Run this in a project directory to start tracking files with Git.
+**Example:** Run this in a project directory to start tracking files with Git.
 
-2. **git add**
-   **Description:** Prepares changes (new files, modifications, or deletions) for the next commit.
-   **Usage:**
+### 2. **git add**
 
-   ```bash
-   git add <file>
-   ```
+**Description:** Prepares changes (new files, modifications, or deletions) for the next commit.
+**Usage:**
 
-   To add all changes:
+```bash
+git add <file>
+```
 
-   ```bash
-   git add .
-   ```
+To add all changes:
 
-   **Example:** `git add index.html` stages `index.html` for the next commit.
+```bash
+git add .
+```
 
-3. **git remote**
-   **Description:** Links your local repository to a remote one, such as a repository on GitHub.
-   **Usage:**
+**Example:** `git add index.html` stages `index.html` for the next commit.
 
-   ```bash
-   git remote add origin https://github.com/username/repo-name.git
-   ```
+### 3. **git remote**
 
-   **Example:** Use this command to add a remote repository with the name `origin` (a common default).
+**Description:** Links your local repository to a remote one, such as a repository on GitHub.
+**Usage:**
 
-4. **git commit**
-   **Description:** Records changes to the repository with a message describing the changes.
-   **Usage:**
+```bash
+git remote add origin https://github.com/username/repo-name.git
+```
 
-   ```bash
-   git commit -m "Your commit message"
-   ```
+**Example:** Use this command to add a remote repository with the name `origin` (a common default).
 
-   **Example:** `git commit -m "Added new feature"` commits your changes with a descriptive message.
+### 4. **git commit**
 
-5. **git push**
-   **Description:** Sends your committed changes to the remote repository.
-   **Usage:**
+**Description:** Records changes to the repository with a message describing the changes.
+**Usage:**
 
-   ```bash
-   git push origin main
-   ```
+```bash
+git commit -m "Your commit message"
+```
 
-   **Example:** `git push origin main` pushes changes from your local `main` branch to GitHub.
+**Example:** `git commit -m "Added new feature"` commits your changes with a descriptive message.
 
-6. **git pull**
-   **Description:** Updates your local branch with changes from the corresponding branch on the remote repository.
-   **Usage:**
+### 5. **git push**
 
-   ```bash
-   git pull origin main
-   ```
+**Description:** Sends your committed changes to the remote repository.
+**Usage:**
 
-   **Example:** `git pull origin main` fetches and merges changes from the `main` branch on GitHub into your local branch.
+```bash
+git push origin main
+```
 
-7. **git clone**
-   **Description:** Creates a local copy of a remote repository.
-   **Usage:**
+**Example:** `git push origin main` pushes changes from your local `main` branch to GitHub.
 
-   ```bash
-   git clone https://github.com/username/repo-name.git
-   ```
+### 6. **git pull**
 
-   **Example:** `git clone https://github.com/username/repo-name.git` clones the repository from GitHub to your computer.
+**Description:** Updates your local branch with changes from the corresponding branch on the remote repository.
+**Usage:**
 
-8. **git status**
-   **Description:** Displays the status of the working directory and staging area, showing which files are modified, staged, or untracked.
-   **Usage:**
+```bash
+git pull origin main
+```
 
-   ```bash
-   git status
-   ```
+**Example:** `git pull origin main` fetches and merges changes from the `main` branch on GitHub into your local branch.
 
-   **Example:** Run `git status` to view any uncommitted changes or newly added files in the repository.
+### 7. **git clone**
+
+**Description:** Creates a local copy of a remote repository.
+**Usage:**
+
+```bash
+git clone https://github.com/username/repo-name.git
+```
+
+**Example:** `git clone https://github.com/username/repo-name.git` clones the repository from GitHub to your computer.
+
+### 8. **git status**
+
+**Description:** Displays the status of the working directory and staging area, showing which files are modified, staged, or untracked.
+**Usage:**
+
+```bash
+git status
+```
+
+**Example:** Run `git status` to view any uncommitted changes or newly added files in the repository.
 
 ---
 
