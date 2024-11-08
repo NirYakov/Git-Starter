@@ -23,7 +23,7 @@ This guide covers essential Git commands to help you get started with version co
   git config --global user.email "your-email@example.com"
   ```
 
-## 3. Create a GitHub Account (if needed)
+### 3. Create a GitHub Account (if needed)
 
 - **Sign Up**: Visit [GitHub](https://github.com/) and create an account if you don't already have one. Verify your email address.
 - **Repository Types**: GitHub offers both public and private repositories, so you can manage who can view your code.
@@ -127,5 +127,18 @@ git status
 **Example:** Run `git status` to view any uncommitted changes or newly added files in the repository.
 
 ---
+
+## References
+
+### AI:
+
+- Claude
+- ChatGPT
+
+### Websites:
+
+- [Git Documentation](https://git-scm.com/docs)
+- [Atlassian Git Glossary](https://www.atlassian.com/git/glossary#commands)
+- [GitHub Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
 This cheat sheet should help you navigate basic Git commands and workflows. Happy coding!
