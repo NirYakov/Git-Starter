@@ -1,5 +1,3 @@
-Here is the text formatted with the same style of number bullet points and titles:
-
 # Git & GitHub Command Cheat Sheet
 
 This guide covers essential Git commands to help you get started with version control in Git and GitHub.
