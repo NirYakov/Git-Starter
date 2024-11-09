@@ -20,7 +20,7 @@ This repository contains a comprehensive cheat sheet covering essential Git comm
 This guide covers the essential steps to get started with Git and GitHub:
 
 1. [Install Git](https://git-scm.com/downloads)
-2. [Set Up Git](https://github.com/your-username/git-github-cheat-sheet#2-set-up-git)
+2. [Set Up Git](https://github.com/NirYakov/git-github-cheat-sheet#2-set-up-git)
 3. [Create a GitHub Account](https://github.com/join)
 
 ## Essential Git Commands
@@ -55,7 +55,7 @@ Visual Studio Code (VS Code) is a popular code editor that integrates seamlessly
 To use VS Code with Git and GitHub, follow these steps:
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/)
-2. Install the [Git extension](https://marketplace.visualstudio.com/items?itemName=vscode-git.git) for VS Code
+2. Install the [Git extension](https://marketplace.visualstudio.com/items?itemName=KnisterPeter.vscode-github/) for VS Code
 3. Sign in to your GitHub account within VS Code
 
 ### GitHub Desktop
@@ -83,8 +83,6 @@ Merge conflicts occur when two or more people make changes to the same part of a
 5. Commit the resolved conflict using `git commit`
 
 Refer to the [Git documentation](https://git-scm.com/docs/git-merge#_how_conflicts_are_presented) for more information on resolving merge conflicts.
-
-Sure, here's an updated README section with a more explanatory title:
 
 ## Hiding Unwanted Files with .gitignore
 
